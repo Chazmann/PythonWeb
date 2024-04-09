@@ -6,7 +6,7 @@ from PythonWeb.templates import template
 import reflex as rx
 
 
-@template(route="/", title="Home", image="/github.svg")
+@template(route="/", title="Python for WebApps", image="/github.svg")
 def index() -> rx.Component:
     """The home page.
 
